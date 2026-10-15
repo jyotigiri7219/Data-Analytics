@@ -32,17 +32,21 @@ print(f"your factorial is {s}")
 
 num1 = int(input("Enter the first number:- "))
 num2 = int(input("Enter the second number:- "))
+
 for i in range(num1,num2+1):
-    if i%2==0:
+    if i % 2 == 0:
         print(f"{i} is even number")
     else:
         print(f"{i} is odd number")
 
 n = int(input("Tell your range:- "))
+
 even_sum = 0
 odd_sum = 0
+
 for i in range(1,n+1):
-    if i%2==0:
+
+    if i % 2==0:
         even_sum += i
     else:
         odd_sum += i
