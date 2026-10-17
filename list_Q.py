@@ -19,19 +19,16 @@
 #         index = i
 # print(f"Maximum value is: {max} at index: {index}")
 
-#Q3: maximum valuse 2nd position to find largest value in the list
+#Q3: Find the second largest value in the list
 
-# a = [11,25,65,48,28,85,74,99,12]
-# max = a[0]
-# max2 = a[0]
-# index = 0
-# index2 = 0
-# for i in range(len(a)):
-#     if a[i] > max:
-#         max = a[i]
-#         index = i
-#     if a[i] > max2 and a[i] < max:
-#         max2 = a[i]
-#         index2 = i
-# print(f"Maximum value is: {max} at index: {index}")
-# print(f"Second maximum value i)s: {max2} at index: {index2}")
+a = [55,10,95,100,65]
+max = a[0]
+max2 = a[0]
+index = 0
+index2 = 0
+
+for i in range(len(a)):
+    if a[i] > max:
+        max2 = max
+        
+        index2 = i
