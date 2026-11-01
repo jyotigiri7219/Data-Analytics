@@ -53,22 +53,44 @@
 # else:
 #     print("Sorry No discount for your bill")
 
+#Q No. 7
+# a = int(input("chossies the(1-7) days numbers "))
 
-a = int(input("chossies the(1-7) days numbers "))
+# if a == 1:
+#     print("monday it is")
+# elif a == 2:
+#     print("tuseday it is")
+# elif a == 3:
+#     print("wednesday it is")
+# elif a == 4:
+#     print("thuesday it is")
+# elif a == 5:
+#     print("friday it is")
+# elif a == 6:
+#     print("saterday it is")
+# elif a == 7:
+#     print("sunday it is")
+# else:
+#     print("sorry not vailed days")
 
-if a == 1:
-    print("monday it is")
-elif a == 2:
-    print("tuseday it is")
-elif a == 3:
-    print("wednesday it is")
-elif a == 4:
-    print("thuesday it is")
-elif a == 5:
-    print("friday it is")
-elif a == 6:
-    print("saterday it is")
-elif a == 7:
-    print("sunday it is")
-else:
-    print("sorry not vailed days")
+# a = int(input("plase enter the number: "))
+# if a % 2 == 0:
+#     print("you number is even")
+# else:
+#     print("your number is odd")
+
+# Q No. 8
+# a = int(input("plase 1st number: "))
+# b = int(input("plase 2nd number:"))
+# c = int(input("plase 3rd number:"))
+
+# if a == b and a == c:
+#     print("all numbers are equal -")
+# elif a == b or b == c or c == a:
+#     print("two numbers are equal")
+# elif a > b and a > c:
+#     print(f"{a} is greatest number")
+# elif b > a and b > c:
+#     print(f"{b} is grestest number")
+# else:
+#     print(f"{c} is greatest number")
