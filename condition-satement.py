@@ -35,13 +35,13 @@
 
 
 # #Q NO. 5  leap year check
-# year = int(input("Please enter a year:- "))
-# if year % 400 == 0 and year % 100 == 0:
-#     print(f"{year} is a leap year")
-# elif year % 4==0 and year % 100 != 0:
-#     print(f"{year} is a leap year")
-# else:
-#     print(f"{year} is not a leap year")
+year = int(input("Please enter a year:- "))
+if year % 400 == 0 and year % 100 == 0:
+    print(f"{year} is a leap year")
+elif year % 4==0 and year % 100 != 0:
+    print(f"{year} is a leap year")
+else:
+    print(f"{year} is not a leap year")
 
 
 # #Q No. 6 bill counting
