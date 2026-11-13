@@ -1,4 +1,5 @@
 # (strt allwase 0, end not include, step is optional)-> s,s,s  [start,stop,step]
+
 #  n = int(input("Enter a table number:- "))
 # for i in range(n,(n*10)+1,n):
 #     print(i)
@@ -93,10 +94,20 @@
 #     print(i)
 
 # n = int(input("tell a number to print its table :-"))
-
 # for i in range(n,(n*10)+1,n):
 #     print(i)
 
-s = "i love python"
-for i in range(0,len(s),1):  #for i in s: 
-    print(s[i])               #print(i)
+# s = "i love python"
+# for i in range(0,len(s),1):  #for i in s: 
+#     print(s[i])               #print(i)
+
+#reverse number print
+# n = int(input("tell a number to print : - "))
+# for i in range(n,0,-1):
+#     print(i)
+
+n  = int(input("what is number to sum :- "))
+s = 0
+for i in range(1,n+1):
+    s = s + i
+print(f"your sum is {s}")
